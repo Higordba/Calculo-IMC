@@ -1,0 +1,13 @@
+var nome = prompt ('Digite o seu nome:');
+    alert('Olá ' + nome);
+    var peso = prompt ('Digite seu peso:');
+var altura = prompt ('Digite a sua altura:');
+var imc = peso / (altura * altura);
+    alert("seu imc está em: " + imc);
+    if (imc < 25) {
+        alert('Cuidado você está com baixo peso.');
+    } else if (imc < 30) {
+        alert("Parabéns você está no peso certo");
+    } else {
+        alert("Procure ajuda médica pois você está acima do peso.");
+}
